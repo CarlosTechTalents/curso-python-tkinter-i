@@ -1,0 +1,14 @@
+git init
+git status
+git add --all
+git commit -m 'This is my first commit, the course is not finished yet!'
+git remote add origin https://github.com/CarlosTechTalents/curso-python-tkinter-i.git
+git push -u origin master
+
+echo "# curso-python-tkinter-i" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/CarlosTechTalents/curso-python-tkinter-i.git
+git push -u origin main
